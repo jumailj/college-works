@@ -1,0 +1,11 @@
+*.vs
+*.sln
+
+**/bin
+**/bin-int
+
+*.filters
+*.user
+*.vcxproj
+
+*s2-Data-structures-lab/Data-Structure/bin-int/
