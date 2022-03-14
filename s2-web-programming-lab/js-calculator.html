@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>calculator</title>
+
+		<script type="text/javascript">
+
+			function add()  
+			{
+				var a = document.form1.text1.value;
+				var b = document.form1.text2.value;
+				var c;
+				
+				c = Number(a) + Number(b);
+				alert("sum = " + c);
+			}
+
+			
+			function sub()  
+			{
+				var a = document.form1.text1.value;
+				var b = document.form1.text2.value;
+				var c;
+				
+				c = Number(a) - Number(b);
+				alert("sum = " + c);
+			}
+
+			function div()  
+			{
+				var a = document.form1.text1.value;
+				var b = document.form1.text2.value;
+				var c;
+				
+				c = Number(a) / Number(b);
+				alert("sum = " + c);
+			}
+
+			function mul()  
+			{
+				var a = document.form1.text1.value;
+				var b = document.form1.text2.value;
+				var c;
+				
+				c = Number(a) * Number(b);
+				alert("sum = " + c);
+			}
+
+			function mod()  
+			{
+				var a = document.form1.text1.value;
+				var b = document.form1.text2.value;
+				var c;
+				
+				c = Number(a) % Number(b);
+				alert("sum = " + c);
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<table border ="6" align="center">
+			<caption> <h2>Simple Calculation </h2> </caption>
+
+			<tr>
+				<form name="form1">
+			</tr>
+
+			<tr>
+				<td colspan="5">
+				Enter the first number:
+				<input type = "text" name = "text1" size = "25">
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="5">
+				Enter the second number:
+				<input type = "text" name = "text2" size = "25">
+				</td>
+			</tr>
+
+			<tr>
+				<td align = "center"> <input type="button" value="+" onclick="add()"> </td>
+				<td align = "center"> <input type="button" value="-" onclick="sub()"> </td>
+				<td align = "center"> <input type="button" value="*" onclick="mul()"> </td>
+				<td align = "center"> <input type="button" value="/" onclick="div()"> </td>
+				<td align = "center"> <input type="button" value="%" onclick="mod()"> </td>
+			</tr>
+		</table>
+
+	</body>	
+</html>

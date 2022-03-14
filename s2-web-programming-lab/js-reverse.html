@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>reverse</title>
+
+		<script type="text/javascript">
+			
+			var number = prompt("Enter a value");
+			var reverse = 0;
+			var remainder = 0;
+
+			while ( number != 0) {
+				remainder = number%10;
+				reverse = reverse*10 + remainder;
+				number = parseInt(number / 10);
+			}
+
+		alert(reverse);
+				
+		</script>
+	</head>
+
+</html>

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>odd or even</title>
+
+		<script type="text/javascript">
+		function odd_even() {
+			var no = document.form1.txt.value;
+			if( no%2 == 0) {
+				alert("even Number");
+			} else {
+				alert("odd Number");
+			}
+		}
+		
+		</script>
+
+	</head>
+
+	<body>
+		<form name="form1">
+		 Enter any number: <input type="text" name = "txt">
+			<input type = "button" value = "submit" onclick = "odd_even()">
+		</form>
+	</body>	
+</html>
